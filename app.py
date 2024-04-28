@@ -28,14 +28,13 @@ import time
 
 
 
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
-# Load environment variables from .env file
-load_dotenv()
+# # Load environment variables from .env file
+# load_dotenv()
 
-# Now you can access your API keys securely
-openai_api_key = os.getenv('OPENAI_API_KEY')
-tavily_api_key = os.getenv('TAVILY_API_KEY')
+os.environ['OPENAI_API_KEY'] = "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"
+os.environ["TAVILY_API_KEY"] = "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"
 
 
 

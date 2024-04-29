@@ -33,7 +33,7 @@ import time
 # # Load environment variables from .env file
 # load_dotenv()
 
-os.environ['OPENAI_API_KEY'] = "sk-proj-wRCjc4ROwMxyOce3kjuhT3BlbkFJtJxgFjfNSwaJiuswBiZX"
+os.environ['OPENAI_API_KEY'] = "sk-proj-OhnqgdwCOWtbWOypibjGT3BlbkFJ8hwswPKAl5AkVrYbEUjR"
 os.environ["TAVILY_API_KEY"] = "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"
 
 
